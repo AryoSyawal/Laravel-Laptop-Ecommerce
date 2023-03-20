@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: auto;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+#container{
+    width: 100%;
+    margin: 0;
+}
+
+#navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}
+
+nav{
+    height: 60px;
+}
+
+#navbarNavDropdown ul{
+    display: flex;
+    gap: 10px;
+}
+
+#logo{
+   position: relative;
+   left: 30px;
+   width: 120px;
+}
+
+#nav-item{
+    position: relative;
+    left: 50px;
+}
+
+#user{
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    position: relative;
+    left: 950px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#user a{
+    margin: 0;
+    color: #FFFFFF8C;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+#dropdown{
+    position: none;
+    left: 950px;
+}
+
+.dropdown-menu{
+    position: none;
+    top: 3  5px;
+    right: 1px;
+}
+
+
+/* #navbar input{
+    position: relative;
+    background-color: #404258;
+    padding-left: 10px;
+    right: 10px;
+    border: none;
+    padding-bottom: 10px;
+    height: 40px;
+    width: 400px;
+} */
+
+#navbar input:focus{
+    outline: none;
+}
+
+#home{
+    width: 100%;
+    height: 650px;
+    background: linear-gradient(to bottom right, black, rgb(100, 98, 98));
+}
+
+#left-panel{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+
+
+
+#left-panel #big-text {
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+    font-size: 120px;
+    left: 5px;
+}
+
+#left-panel #medium-text {
+    color: white;
+    width: 100%;
+    position: relative;
+    left: 5px;
+    top: 10px;
+    font-weight:normal;
+    font-size: 25px;    
+}
+
+#left-panel #small-text{
+    color: white;
+    width: 100%;
+    position: relative;
+    left: 5px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+#right-panel{
+    width: 50%;
+    position: absolute;
+    left: 600px;
+
+}
+
+#right-panel #img-panel img{
+    width: 650px;
+    position: absolute;
+    left: 190px;
+    top: 130px;
+    transition: all 1s ease-in-out;
+}
+
+#right-panel #img-panel img:hover{
+    width: 700px;
+    transform: rotate(5deg);
+}
+
+#features{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#features h1{
+    color: white;
+    margin: 30px;
+    margin-bottom: 40px;
+    font-family: 'Sofia Sans', sans-serif;
+    letter-spacing: 2px;
+}
+#features-flex img{
+    margin: 0;
+}
+
+#features-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+#features-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#features-list h2{
+    font-family: 'Sofia Sans', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#features-list p{
+    width: 500px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+#about{
+    width: 100%;
+    height: 650px;
+    background-image: url('https://static.lenovo.com/ww/campaigns/2022/legion-brand/lenovo-campaign-legion-brand-agnostic-feature-2-5-series.jpg');
+    background-position: 80%;
+    background-size: cover;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+
+#about-offer{
+    position: absolute;
+    left: 63em;
+    top: 415em;
+}
+
+#about-text{
+    height: 650px;
+    background-color: rgba(27, 25, 25, 0.8);
+    width: 50%;
+}
+
+#about-text{
+    height: 650px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-text p{
+    filter: opacity(100%);
+    color: white;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 70;
+    position: relative;
+    left: 20px;
+}
+
+
+
+.ratings i{font-size: 16px;color: red}.strike-text{color: red;text-decoration: line-through}.product-image{width: 100%}.dot{height: 7px;width: 7px;margin-left: 6px;margin-right: 6px;margin-top: 3px;background-color: blue;border-radius: 50%;display: inline-block}.spec-1{color: #938787;font-size: 15px}h5{font-weight: 400}.para{font-size: 16px}
+
+
+
+footer #footer-social a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+footer #footer-social{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
